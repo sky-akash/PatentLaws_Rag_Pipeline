@@ -1,0 +1,17 @@
+{"id": "h01", "question": "Can I patent a mathematical method for compressing data?", "expected": ["A52"], "acceptable": [], "answerable": true}
+{"id": "h02", "question": "A competitor filed a European application before us, but it was published only after our filing date. Is it prior art against us?", "expected": ["A54"], "acceptable": ["A56", "A89"], "answerable": true}
+{"id": "h03", "question": "How long do I have to pay the fee for grant and file the translation of the claims once the EPO says it intends to grant?", "expected": ["R71"], "acceptable": ["A97"], "answerable": true}
+{"id": "h04", "question": "Can anyone file an opposition, or only competitors with a commercial interest?", "expected": ["A99"], "acceptable": ["R76", "A100"], "answerable": true}
+{"id": "h05", "question": "Our application was refused by the Examining Division. How do we contest the refusal?", "expected": ["A108"], "acceptable": ["A106", "A107", "A109", "R99", "R101"], "answerable": true}
+{"id": "h06", "question": "Can we file our European application in Italian?", "expected": ["A14"], "acceptable": ["R3", "R6"], "answerable": true}
+{"id": "h07", "question": "What happens if I do not pay claims fees for having more than fifteen claims?", "expected": ["R45"], "acceptable": ["R162", "R43"], "answerable": true}
+{"id": "h08", "question": "Is a surgical method for treating dogs patentable?", "expected": ["A53"], "acceptable": [], "answerable": true}
+{"id": "h09", "question": "We forgot to pay the renewal fee for the third year of our application. What happens now?", "expected": ["R51"], "acceptable": ["A86", "A121", "A122"], "answerable": true}
+{"id": "h10", "question": "Can I correct an obvious typing error in the description?", "expected": ["R139"], "acceptable": ["R140", "A123"], "answerable": true}
+{"id": "h11", "question": "Which department of the EPO decides on oppositions?", "expected": ["A19"], "acceptable": ["A15", "A101"], "answerable": true}
+{"id": "h12", "question": "From when does a granted European patent take effect?", "expected": ["A97"], "acceptable": ["A64", "A65", "A2"], "answerable": true}
+{"id": "h13", "question": "Can a European patent application be filed at a national patent office instead of the EPO?", "expected": ["A75"], "acceptable": ["A77", "R35"], "answerable": true}
+{"id": "h14", "question": "What protection does a published but not yet granted European application give?", "expected": ["A67"], "acceptable": ["A64", "A93"], "answerable": true}
+{"id": "h15", "question": "Is a gene sequence isolated from nature patentable?", "expected": ["R27"], "acceptable": ["R29", "R26", "A52", "A53"], "answerable": true}
+{"id": "h16", "question": "Che cos'è il requisito dell'attività inventiva?", "expected": ["A56"], "acceptable": [], "answerable": true}
+{"id": "h17", "question": "Il mio cliente ha mancato il termine per proporre ricorso. Cosa può fare?", "expected": ["A122"], "acceptable": ["A108", "R136", "R135", "A121"], "answerable": true}

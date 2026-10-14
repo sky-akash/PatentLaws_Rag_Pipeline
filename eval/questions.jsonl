@@ -1,0 +1,46 @@
+{"id": "q01", "question": "I presented my invention at a trade fair in Munich four months ago and haven't filed yet. Can I still get a European patent?", "expected": ["A55"], "acceptable": ["A54", "R25"], "answerable": true}
+{"id": "q02", "question": "A former employee stole my lab notes and published the invention five months before I filed. Does that destroy novelty?", "expected": ["A55"], "acceptable": ["A54"], "answerable": true}
+{"id": "q03", "question": "My European application claims priority from a US provisional application filed 13 months ago. Is the priority claim valid?", "expected": ["A87"], "acceptable": ["A88", "A89", "R52", "R53", "A122", "R136"], "answerable": true}
+{"id": "q04", "question": "During examination I want to add a new embodiment that was not in the application as filed. Is that allowed?", "expected": ["A123"], "acceptable": ["R137"], "answerable": true}
+{"id": "q05", "question": "Can the patent proprietor broaden the claims during opposition proceedings after grant?", "expected": ["A123"], "acceptable": ["R80", "A101"], "answerable": true}
+{"id": "q06", "question": "What is the difference between Article 54(2) and Article 54(3) prior art?", "expected": ["A54"], "acceptable": ["A56"], "answerable": true}
+{"id": "q07", "question": "I missed the time limit to reply to a communication from the EPO. What can I do?", "expected": ["A121", "A122"], "acceptable": ["R135", "R136"], "answerable": true}
+{"id": "q08", "question": "I found a new medical use for a drug that is already known. Can I patent it at the EPO?", "expected": ["A54"], "acceptable": ["A53"], "answerable": true}
+{"id": "q09", "question": "Is computer software patentable under the European Patent Convention?", "expected": ["A52"], "acceptable": [], "answerable": true}
+{"id": "q10", "question": "Can I get a European patent for a new method of doing business?", "expected": ["A52"], "acceptable": [], "answerable": true}
+{"id": "q11", "question": "Can I claim a new surgical method for removing tumours?", "expected": ["A53"], "acceptable": ["A54"], "answerable": true}
+{"id": "q12", "question": "Can a new plant variety be protected by a European patent?", "expected": ["A53"], "acceptable": ["R26", "R27", "R28"], "answerable": true}
+{"id": "q13", "question": "Is an invention that requires the destruction of human embryos patentable?", "expected": ["R28"], "acceptable": ["A53", "R29"], "answerable": true}
+{"id": "q14", "question": "How long after grant can a competitor file an opposition?", "expected": ["A99"], "acceptable": ["R75", "R76"], "answerable": true}
+{"id": "q15", "question": "On what grounds can a European patent be opposed?", "expected": ["A100"], "acceptable": ["A99"], "answerable": true}
+{"id": "q16", "question": "What are the deadlines for filing an appeal against a decision of the Examining Division?", "expected": ["A108"], "acceptable": ["A106", "R99", "R101"], "answerable": true}
+{"id": "q17", "question": "Can I file a divisional application, and until when?", "expected": ["A76", "R36"], "acceptable": [], "answerable": true}
+{"id": "q18", "question": "My application contains two unrelated inventions. What happens?", "expected": ["A82"], "acceptable": ["R44", "R64"], "answerable": true}
+{"id": "q19", "question": "How detailed must the description be so that a skilled person can carry out the invention?", "expected": ["A83"], "acceptable": ["R42", "A100"], "answerable": true}
+{"id": "q20", "question": "What requirements must the claims meet regarding clarity and support by the description?", "expected": ["A84"], "acceptable": ["R43"], "answerable": true}
+{"id": "q21", "question": "Who is entitled to the European patent when an employee makes an invention?", "expected": ["A60"], "acceptable": ["A61"], "answerable": true}
+{"id": "q22", "question": "Someone filed a European application for my invention without my permission. What can I do?", "expected": ["A61"], "acceptable": ["A60", "R16", "R14"], "answerable": true}
+{"id": "q23", "question": "In which languages can a European patent application be filed?", "expected": ["A14"], "acceptable": ["R3", "R6"], "answerable": true}
+{"id": "q24", "question": "What do I need to file before the European patent is granted after the communication under Rule 71(3)?", "expected": ["R71"], "acceptable": ["A97"], "answerable": true}
+{"id": "q25", "question": "When is the deadline for requesting examination of a European application?", "expected": ["R70"], "acceptable": ["A94"], "answerable": true}
+{"id": "q26", "question": "When is a European patent application published?", "expected": ["A93"], "acceptable": ["R67", "R68"], "answerable": true}
+{"id": "q27", "question": "Do I have to pay renewal fees while my European application is pending?", "expected": ["A86"], "acceptable": ["R51"], "answerable": true}
+{"id": "q28", "question": "How are the claims of a European patent interpreted to determine the extent of protection?", "expected": ["A69"], "acceptable": ["PROT69"], "answerable": true}
+{"id": "q29", "question": "What rights does a European patent give its owner?", "expected": ["A64"], "acceptable": ["A69", "A2"], "answerable": true}
+{"id": "q30", "question": "How long does a European patent last?", "expected": ["A63"], "acceptable": [], "answerable": true}
+{"id": "q31", "question": "What is the time limit for entering the European phase with a PCT application?", "expected": ["R159"], "acceptable": ["A153", "A150"], "answerable": true}
+{"id": "q32", "question": "Can the proprietor limit the claims of a granted European patent outside opposition?", "expected": ["A105a"], "acceptable": ["A105b", "R90", "R95"], "answerable": true}
+{"id": "q33", "question": "The Board of Appeal violated my right to be heard. Is there any remedy against its decision?", "expected": ["A112a"], "acceptable": ["R104", "A113"], "answerable": true}
+{"id": "q34", "question": "When is an invention considered to involve an inventive step?", "expected": ["A56"], "acceptable": [], "answerable": true}
+{"id": "q35", "question": "What does susceptible of industrial application mean?", "expected": ["A57"], "acceptable": [], "answerable": true}
+{"id": "q36", "question": "I forgot to include some drawings when filing. Can I file them later and what happens to the filing date?", "expected": ["R56"], "acceptable": ["A90", "R56a", "R40"], "answerable": true}
+{"id": "q37", "question": "Do I have to name the inventor in a European patent application?", "expected": ["A81"], "acceptable": ["R19", "A62", "R60"], "answerable": true}
+{"id": "q38", "question": "I am a company based in the US. Do I need a European patent attorney to act before the EPO?", "expected": ["A133"], "acceptable": ["A134"], "answerable": true}
+{"id": "q39", "question": "Can a third party send arguments against patentability while the application is being examined?", "expected": ["A115"], "acceptable": ["R114"], "answerable": true}
+{"id": "q40", "question": "My European application was deemed withdrawn. Can I convert it into a national application?", "expected": ["A135"], "acceptable": ["A137", "R155"], "answerable": true}
+{"id": "q41", "question": "Do I have the right to oral proceedings before the Examining Division?", "expected": ["A116"], "acceptable": [], "answerable": true}
+{"id": "q42", "question": "My invention uses a new microorganism that cannot be described in words. How do I meet the disclosure requirement?", "expected": ["R31"], "acceptable": ["R33", "R34", "A83"], "answerable": true}
+{"id": "q43", "question": "Quanto dura un brevetto europeo?", "expected": ["A63"], "acceptable": [], "answerable": true}
+{"id": "q44", "question": "Posso aggiungere nuovi esempi alla domanda di brevetto europeo dopo il deposito?", "expected": ["A123"], "acceptable": ["R137"], "answerable": true}
+{"id": "q45", "question": "What is the one-year grace period under 35 U.S.C. 102(b)(1) in US patent law?", "expected": [], "acceptable": [], "answerable": false}
+{"id": "q46", "question": "How do I register a trademark for my bakery in the EU?", "expected": [], "acceptable": [], "answerable": false}

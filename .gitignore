@@ -1,3 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
+eval/results/*.json
+!eval/results/.gitkeep
+.DS_Store
+
+# ---- GitHub's Python template (from the initial commit) ----
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

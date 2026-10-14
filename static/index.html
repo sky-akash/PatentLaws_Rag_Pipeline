@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Patent Law Navigator</title>
+<link rel="stylesheet" href="/static/style.css?v=3">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="mark">§</span>
+    <div>
+      <h1>Patent Law Navigator</h1>
+      <p class="sub">European Patent Convention · Implementing Regulations · EPO Guidelines</p>
+    </div>
+  </div>
+  <div id="health" class="health">checking…</div>
+</header>
+
+<main>
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="ask" role="tab">Ask a question</button>
+    <button class="tab" data-tab="browse" role="tab">Browse the law</button>
+  </nav>
+
+  <section id="tab-ask" class="panel">
+    <form id="ask-form">
+      <label for="q" class="lbl">Describe your situation or ask about a provision</label>
+      <textarea id="q" rows="4" placeholder="e.g. I presented my invention at a trade fair in Munich four months ago and haven't filed yet. Can I still get a European patent?"></textarea>
+      <div class="examples" id="examples"></div>
+      <div class="row">
+        <label class="check"><input type="checkbox" id="use-plan" checked> Rewrite my question in EPC terms before searching</label>
+        <button type="submit" id="ask-btn" class="primary">Explain</button>
+      </div>
+    </form>
+    <div id="status" class="status" hidden></div>
+    <div id="result"></div>
+  </section>
+
+  <section id="tab-browse" class="panel" hidden>
+    <form id="browse-form" class="row">
+      <input id="bq" type="search" placeholder="Search the law (e.g. 'priority period', 'divisional', 'Art. 123(2)')">
+      <button class="primary" type="submit">Search</button>
+    </form>
+    <p class="hint">Search costs no model tokens. It runs the same hybrid retrieval the answers use.</p>
+    <div id="browse-result"></div>
+  </section>
+</main>
+
+<aside id="drawer" class="drawer" hidden aria-label="Provision text">
+  <div class="drawer-head">
+    <div><div id="d-label" class="d-label"></div><div id="d-title" class="d-title"></div></div>
+    <button id="d-close" class="ghost" aria-label="Close">✕</button>
+  </div>
+  <div id="d-body" class="drawer-body"></div>
+</aside>
+
+<footer class="foot">
+  Research prototype, not legal advice. Law texts © European Patent Office, reproduced from epo.org with attribution.
+  The Guidelines describe EPO practice and are not legally binding.
+</footer>
+<script src="/static/app.js?v=3"></script>
+</body>
+</html>

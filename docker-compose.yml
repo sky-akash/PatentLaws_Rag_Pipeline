@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    ports: ["8010:8010"]
+    env_file: .env
+    environment:
+      # Ollama runs on the host (embeddings); Docker Desktop reaches the host by this name
+      PL_OLLAMA_URL: http://host.docker.internal:11434
+    volumes:
+      - ./data:/app/data
