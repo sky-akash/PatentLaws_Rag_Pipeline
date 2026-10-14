@@ -43,7 +43,7 @@ question ─► PLAN ─────────► RETRIEVE ──────�
 | Corpus | Source | Size | Status |
 |---|---|---|---|
 | EPC Articles, Implementing Regulations, Rules relating to Fees, Protocol on Art. 69 | [epo.org/en/legal/epc](https://www.epo.org/en/legal/epc/2020/index.html) (pages updated 2026-05-21) | 372 provisions, 438 passages | indexed |
-| Guidelines for Examination (March 2026) | [epo.org/en/legal/guidelines-epc/2026](https://www.epo.org/en/legal/guidelines-epc/2026/index.html) | ~1,850 sections | fetcher ready (`python -m patentlaw.fetch guidelines`) |
+| Guidelines for Examination (March 2026) | [epo.org/en/legal/guidelines-epc/2026](https://www.epo.org/en/legal/guidelines-epc/2026/index.html) | 1,858 pages | downloaded to `data/raw/guidelines`, not yet indexed (`python -m patentlaw.index epc guidelines`) |
 | Case Law of the Boards of Appeal (2025) | epo.org/en/legal/case-law/2025 | | next |
 | Unitary Patent / UPC Agreement | EUR-Lex (Reg. 1257/2012, 1260/2012), UPC Agreement | | planned |
 | Italian Industrial Property Code (D.Lgs. 30/2005) | Normattiva | | planned |
@@ -127,7 +127,7 @@ What it shows: the thesaurus, fusion weights and pruning threshold were tuned on
 
 ## Roadmap
 
-- Index the Guidelines (fetched) and the Case Law book; let answers distinguish *law* (EPC) from *practice* (Guidelines) from *interpretation* (Boards of Appeal)
+- Index the Guidelines (downloaded) and the Case Law book; let answers distinguish *law* (EPC) from *practice* (Guidelines) from *interpretation* (Boards of Appeal)
 - Grow the held-out set; have a patent professional review answer correctness against the judge's ratings
 - Unitary Patent / UPC and the Italian IP Code (Normattiva) as further corpora
 - Reranker (cross-encoder) once the corpus grows with the Guidelines
